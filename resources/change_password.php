@@ -76,7 +76,7 @@ $message = "Record Modified Successfully";
 										<strong>Well done! </strong> Login Information Updated!
 									</div>';
       exit();
-header("Location:#");
+ 
 }
 $result = mysqli_query($conn,"SELECT * FROM userlog WHERE username='$user_check'");
 $row= mysqli_fetch_array($result);
